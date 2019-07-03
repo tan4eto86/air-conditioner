@@ -4,7 +4,7 @@ STEP 1: Install docker
 
 	use the comands bellow:
 
-	```
+	~~~~
 	sudo apt update
 
 	sudo apt install apt-transport-https ca-certificates curl software-properties-common
@@ -18,7 +18,7 @@ STEP 1: Install docker
 	apt-cache policy docker-ce
 	
 	sudo apt install docker-ce
-	```
+	~~~~
 
 
 
@@ -27,10 +27,10 @@ STEP 2 (optional): Use docker without sudo
 	
 	use the comands bellow:
 
-	```
+	~~~~
 	sudo usermod -aG docker {USER}
-	
+
 	su - {USER}
-	```
+	~~~~
 
 STEP 3:

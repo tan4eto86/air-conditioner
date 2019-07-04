@@ -31,4 +31,8 @@ use the comands bellow:
 
 	su - {USER}
 
-STEP 3:
+STEP 3: Set up the docker with HASS 
+
+use the comand bellow:
+	
+	docker run -d --name="{name the container}" --restart on-failure -v {Directory of the repository}/hass_config:/config -p 8123:8123 homeassistant/home-assistant

@@ -31,8 +31,7 @@ use the comands bellow:
 
 	su - {USER}
 
-STEP 3: Set up the docker with HASS 
-
-use the comand bellow:
+STEP 3: Run docker image with Home Assistant
 	
-	docker run -d --name="{name the container}" --restart on-failure -v {Directory of the repository}/hass_config:/config -p 8123:8123 homeassistant/home-assistant
+	docker run --init -d --name="home-assistant" -v /PATH_TO_YOUR_CONFIG:/config -v --net=host homeassistant/home-assistant
+

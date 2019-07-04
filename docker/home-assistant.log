@@ -1,0 +1,24 @@
+2019-07-04 11:25:48 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 99] Cannot assign requested address
+2019-07-04 11:25:48 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 5 seconds.
+2019-07-04 11:25:54 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 99] Cannot assign requested address
+2019-07-04 11:25:54 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 10 seconds.
+2019-07-04 11:26:05 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 99] Cannot assign requested address
+2019-07-04 11:26:05 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 20 seconds.
+2019-07-04 11:26:26 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 99] Cannot assign requested address
+2019-07-04 11:26:26 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 40 seconds.
+2019-07-04 11:27:07 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 99] Cannot assign requested address
+2019-07-04 11:27:07 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 80 seconds.
+2019-07-04 11:28:28 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 99] Cannot assign requested address
+2019-07-04 11:28:28 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 80 seconds.
+2019-07-04 11:29:49 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 99] Cannot assign requested address
+2019-07-04 11:29:49 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 80 seconds.
+2019-07-04 11:31:10 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 99] Cannot assign requested address
+2019-07-04 11:31:10 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 80 seconds.
+2019-07-04 11:32:31 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 99] Cannot assign requested address
+2019-07-04 11:32:31 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 80 seconds.
+2019-07-04 11:33:52 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 99] Cannot assign requested address
+2019-07-04 11:33:52 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 80 seconds.
+2019-07-04 11:35:13 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 99] Cannot assign requested address
+2019-07-04 11:35:13 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 80 seconds.
+2019-07-04 11:36:34 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 99] Cannot assign requested address
+2019-07-04 11:36:34 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 80 seconds.

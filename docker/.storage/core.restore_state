@@ -1,0 +1,26 @@
+{
+    "data": [
+        {
+            "last_seen": "2019-07-04T11:52:37.002169+00:00",
+            "state": {
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "Aleksandar",
+                    "id": "5ebc1a223b4342a099ec1815876731a4",
+                    "user_id": "40f4161c9c604e4791ea2d7229aca258"
+                },
+                "context": {
+                    "id": "959156f4865044cb9f9b41e106cb0244",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "person.aleksandar",
+                "last_changed": "2019-07-04T11:37:31.016979+00:00",
+                "last_updated": "2019-07-04T11:37:36.310768+00:00",
+                "state": "unknown"
+            }
+        }
+    ],
+    "key": "core.restore_state",
+    "version": 1
+}

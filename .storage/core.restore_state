@@ -1,0 +1,26 @@
+{
+    "data": [
+        {
+            "last_seen": "2019-07-04T10:32:09.003090+00:00",
+            "state": {
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "Yoni",
+                    "id": "59d98f84bb474c40bb00189cede1a8a5",
+                    "user_id": "69a5229065b24f81aa140f3203b04eb4"
+                },
+                "context": {
+                    "id": "6142556f3e8d4d628d31212da2ff3245",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "person.yoni",
+                "last_changed": "2019-07-04T10:17:06.617972+00:00",
+                "last_updated": "2019-07-04T10:17:08.145038+00:00",
+                "state": "unknown"
+            }
+        }
+    ],
+    "key": "core.restore_state",
+    "version": 1
+}

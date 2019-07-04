@@ -1,0 +1,83 @@
+{
+    "data": {
+        "credentials": [
+            {
+                "auth_provider_id": null,
+                "auth_provider_type": "homeassistant",
+                "data": {
+                    "username": "yonitutu"
+                },
+                "id": "6a612c9c355147cf83faff4845869dfe",
+                "user_id": "69a5229065b24f81aa140f3203b04eb4"
+            }
+        ],
+        "groups": [
+            {
+                "id": "system-admin",
+                "name": "Administrators"
+            },
+            {
+                "id": "system-users",
+                "name": "Users"
+            },
+            {
+                "id": "system-read-only",
+                "name": "Read Only"
+            }
+        ],
+        "refresh_tokens": [
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://localhost:8123/",
+                "client_name": null,
+                "created_at": "2019-07-04T07:27:18.495292+00:00",
+                "id": "b108d43d07c34cf297401f1d33475a82",
+                "jwt_key": "8d4f10a89597012ccd12ebd970bd5dfe9f17ac112bf9ddd632f19e14e14c24ab9338a8c1af24c0d45a6479cd2bf273da8c0118c248b1cc0145a8009630a5d17f",
+                "last_used_at": "2019-07-04T07:27:18.495344+00:00",
+                "last_used_ip": "127.0.0.1",
+                "token": "da8306f4df136009f6486c96d8eaba91e5693bf0671ee94dee9233434080288507459a7fe73a379bd91cafe05c4d2d15ab856caaf240070707500b091782ec30",
+                "token_type": "normal",
+                "user_id": "69a5229065b24f81aa140f3203b04eb4"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://localhost:8123/",
+                "client_name": null,
+                "created_at": "2019-07-04T07:32:44.927997+00:00",
+                "id": "4b5e98b357c943a2b0e4c68999e37837",
+                "jwt_key": "2144c5ab1e6918d83df4cc2e30be06558d01d37e12ae1706d875f5fc1e20216cdcbb5943fc78481c8bc24f9479fae9f755e35dfd79e9631b585727cb31ef5382",
+                "last_used_at": "2019-07-04T10:17:13.002701+00:00",
+                "last_used_ip": "127.0.0.1",
+                "token": "bf6705d9cd1d7c40f03e69498ef666f9fa206d3c8d5e5adec36aa60344530da2a362eac4c38ed09731c39d95e44bb3c199dabcf9d6d477599bf28561685242cc",
+                "token_type": "normal",
+                "user_id": "69a5229065b24f81aa140f3203b04eb4"
+            }
+        ],
+        "users": [
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "2e2b03124e2c40a892493897f389504f",
+                "is_active": true,
+                "is_owner": false,
+                "name": "Home Assistant Cloud",
+                "system_generated": true
+            },
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "69a5229065b24f81aa140f3203b04eb4",
+                "is_active": true,
+                "is_owner": true,
+                "name": "Yoni",
+                "system_generated": false
+            }
+        ]
+    },
+    "key": "auth",
+    "version": 1
+}

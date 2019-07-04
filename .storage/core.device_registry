@@ -1,0 +1,68 @@
+{
+    "data": {
+        "devices": [
+            {
+                "area_id": "8a8634d6f3524288b4fa2ec827486fb6",
+                "config_entries": [
+                    "e288de81791f46e2956c7bc77a7efd75"
+                ],
+                "connections": [],
+                "id": "373c9095a61e428fba57bba1e4901037",
+                "identifiers": [
+                    [
+                        "cast",
+                        "85eec7adb7a1939330fe9b388e102349"
+                    ]
+                ],
+                "manufacturer": "Unknown manufacturer",
+                "model": "Chromecast Ultra",
+                "name": "\u041b\u0430\u0441 \u0412\u0435\u0433\u0430\u0441 TV",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "e288de81791f46e2956c7bc77a7efd75"
+                ],
+                "connections": [],
+                "id": "40700721a44b4003a9e2da122bde835e",
+                "identifiers": [
+                    [
+                        "cast",
+                        "2f21fc04d5989f4b1634e09fcb6a4d41"
+                    ]
+                ],
+                "manufacturer": "Unknown manufacturer",
+                "model": "Chromecast",
+                "name": "\u0425\u0435\u043b\u0437\u0438\u043d\u043a\u0438 TV",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "e288de81791f46e2956c7bc77a7efd75"
+                ],
+                "connections": [],
+                "id": "17969001244b468bb67883d8c39758c7",
+                "identifiers": [
+                    [
+                        "cast",
+                        "6f9e1f1b5c8a3d519707a747bfe98b14"
+                    ]
+                ],
+                "manufacturer": "Unknown manufacturer",
+                "model": "Chromecast",
+                "name": "\u0421\u043e\u0444\u0438\u044f TV",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            }
+        ]
+    },
+    "key": "core.device_registry",
+    "version": 1
+}

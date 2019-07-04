@@ -1,0 +1,40 @@
+{
+    "data": {
+        "entries": [
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "track_home": true
+                },
+                "domain": "met",
+                "entry_id": "dd50219c37c24d64b34c63599f6c7838",
+                "options": {},
+                "source": "onboarding",
+                "title": "Home",
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {},
+                "domain": "cast",
+                "entry_id": "e288de81791f46e2956c7bc77a7efd75",
+                "options": {},
+                "source": "zeroconf",
+                "title": "Google Cast",
+                "version": 1
+            },
+            {
+                "connection_class": "local_push",
+                "data": {},
+                "domain": "mqtt",
+                "entry_id": "c8f623f4261f4de89d63c565c6b8a63f",
+                "options": {},
+                "source": "import",
+                "title": "configuration.yaml",
+                "version": 1
+            }
+        ]
+    },
+    "key": "core.config_entries",
+    "version": 1
+}

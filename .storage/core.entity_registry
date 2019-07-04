@@ -1,0 +1,53 @@
+{
+    "data": {
+        "entities": [
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "person.yoni",
+                "name": null,
+                "platform": "person",
+                "unique_id": "59d98f84bb474c40bb00189cede1a8a5"
+            },
+            {
+                "config_entry_id": "dd50219c37c24d64b34c63599f6c7838",
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "weather.home",
+                "name": null,
+                "platform": "met",
+                "unique_id": "home"
+            },
+            {
+                "config_entry_id": "e288de81791f46e2956c7bc77a7efd75",
+                "device_id": "373c9095a61e428fba57bba1e4901037",
+                "disabled_by": null,
+                "entity_id": "media_player.las_vegas_tv",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "85eec7ad-b7a1-9393-30fe-9b388e102349"
+            },
+            {
+                "config_entry_id": "e288de81791f46e2956c7bc77a7efd75",
+                "device_id": "40700721a44b4003a9e2da122bde835e",
+                "disabled_by": null,
+                "entity_id": "media_player.khelzinki_tv",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "2f21fc04-d598-9f4b-1634-e09fcb6a4d41"
+            },
+            {
+                "config_entry_id": "e288de81791f46e2956c7bc77a7efd75",
+                "device_id": "17969001244b468bb67883d8c39758c7",
+                "disabled_by": null,
+                "entity_id": "media_player.sofiia_tv",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "6f9e1f1b-5c8a-3d51-9707-a747bfe98b14"
+            }
+        ]
+    },
+    "key": "core.entity_registry",
+    "version": 1
+}

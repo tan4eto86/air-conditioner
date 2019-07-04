@@ -1,0 +1,37 @@
+{
+    "data": {
+        "config": {
+            "title": "Home",
+            "views": [
+                {
+                    "badges": [
+                        "person.yoni",
+                        "sun.sun"
+                    ],
+                    "cards": [
+                        {
+                            "entity": "media_player.las_vegas_tv",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.khelzinki_tv",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "media_player.sofiia_tv",
+                            "type": "media-control"
+                        },
+                        {
+                            "entity": "weather.home",
+                            "type": "weather-forecast"
+                        }
+                    ],
+                    "path": "default_view",
+                    "title": "Home"
+                }
+            ]
+        }
+    },
+    "key": "lovelace",
+    "version": 1
+}

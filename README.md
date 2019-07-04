@@ -31,4 +31,6 @@ use the comands bellow:
 
 	su - {USER}
 
-STEP 3:
+STEP 3: Run docker image with Home Assistant
+	
+	docker run --init -d --name="home-assistant" -v /PATH_TO_YOUR_CONFIG:/config -v --net=host homeassistant/home-assistant

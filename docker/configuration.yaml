@@ -13,3 +13,9 @@ tts:
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
+
+mqtt:
+  broker: 172.27.6.66
+  username: alex
+  password: lastika12
+  

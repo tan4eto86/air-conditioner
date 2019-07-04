@@ -1,0 +1,12 @@
+{
+    "data": {
+        "users": [
+            {
+                "password": "JDJiJDEyJEUyWG5zSksyTUJ3QmN2eXhOVjQwN3VCcThDM0wyWFB5ZVR6Y2VKeVJGanp0QmVacmYxVEY2",
+                "username": "parr4dox"
+            }
+        ]
+    },
+    "key": "auth_provider.homeassistant",
+    "version": 1
+}

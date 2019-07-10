@@ -18,4 +18,35 @@ mqtt:
   broker: 172.27.6.66
   username: alex
   password: lastika12
+
+climate:
+  - platform: mqtt
+    name: "AC remote"
+    modes:
+      - "off"
+      - "on"
+      - "auto"
+    mode_command_topic: "/IR/cmd"
+    mode_state_topic: "yoni/ac/mode/state"
+    #mode_state_template: "{{ value_json }}"
+    payload_on: "1"
+    payload_off: "0"
+
+Automation:
+  - platform: mqtt
+    name: "AC on/off"
+    state_topic: "/IR/cmd"
+    command_topic: "/IR/cmd"
+    playload_on: "on"
+    playload_off: "off"
+
+
+switch:
+ - platform: mqtt
+   command_topic: "/IR/cmd"
+   name: "Air Conditioner"
+   payload_on: "IRSEND,FUJITSU_AC,1463001010FE0930D1010400000020DA"
+   payload_off: "IRSEND,FUJITSU_AC,146300101002FD"
+   state_on: "ON"
+   state_off: "OFF"
   

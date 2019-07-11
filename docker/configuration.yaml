@@ -49,4 +49,4 @@ switch:
    payload_off: "IRSEND,FUJITSU_AC,146300101002FD"
    state_on: "ON"
    state_off: "OFF"
-  
+

@@ -1,3 +1,5 @@
+2019-07-04 08:39:41 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from 172.17.0.1
+2019-07-04 08:40:36 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from 172.17.0.1
 2019-07-04 11:25:48 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 99] Cannot assign requested address
 2019-07-04 11:25:48 WARNING (MainThread) [homeassistant.config_entries] Config entry for mqtt not ready yet. Retrying in 5 seconds.
 2019-07-04 11:25:54 ERROR (MainThread) [homeassistant.components.mqtt] Failed to connect due to exception: [Errno 99] Cannot assign requested address

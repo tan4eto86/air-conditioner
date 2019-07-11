@@ -5,10 +5,6 @@ default_config:
 # Uncomment this if you are using SSL/TLS, running in Docker container, etc.
 # http:
 #   base_url: example.duckdns.org:8123
-mqtt:
-  broker: 172.27.6.49
-  username: student
-  password: 12345
 
 # Text to speech
 tts:

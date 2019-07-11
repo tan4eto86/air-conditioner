@@ -33,6 +33,7 @@ mqtt:
   	broker: <your IP address>
    	username: username
 	password: password
+	
 ```
 
 ## STEP 4: Subscribe broker(mosquitto) to Hass.io

@@ -16,8 +16,8 @@ script: !include scripts.yaml
 
 mqtt:
   broker: 172.27.6.66
-  username: alex
-  password: lastika12
+  username: !secret some_username
+  password: !secret some_password
 
 climate:
   - platform: mqtt
@@ -31,15 +31,6 @@ climate:
     #mode_state_template: "{{ value_json }}"
     payload_on: "1"
     payload_off: "0"
-
-Automation:
-  - platform: mqtt
-    name: "AC on/off"
-    state_topic: "/IR/cmd"
-    command_topic: "/IR/cmd"
-    playload_on: "on"
-    playload_off: "off"
-
 
 switch:
  - platform: mqtt

@@ -2,7 +2,7 @@
 
 Project for the 2019 TUES internship in Astea Solutions. The goal is to automate controll over an AC with Home Assistant, running on a Docker image, communicating with the device via Mosquitto broker. 
 
-#Commands
+# Commands
 STEP 1: Install docker
 
 Use the comands bellow:

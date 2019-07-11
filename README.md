@@ -41,3 +41,11 @@ Use the command bellow:
 	docker run --init -d --name="home-assistant" --restar on-failure -v /{PATH_TO_DIRECTORY}/air-conditioner/docker:/config -p 8123:8123 homeassistant/home-assistant
 
 If you have already used the name "home-assistant" for docker container, you could set it to anything unused.
+
+# Sourcres
+
+## Decoding the AC remote commands
+
+https://github.com/ToniA/Raw-IR-decoder-for-Arduino/blob/master/Fujitsu.cpp
+
+We used this repository to understand how the AC is decoding the hexadecimal numbers it recieves as commands from the remote.

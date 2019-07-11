@@ -5,6 +5,10 @@ default_config:
 # Uncomment this if you are using SSL/TLS, running in Docker container, etc.
 # http:
 #   base_url: example.duckdns.org:8123
+mqtt:
+  broker: 172.27.6.49
+  username: student
+  password: 12345
 
 # Text to speech
 tts:
@@ -13,3 +17,11 @@ tts:
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
+
+
+switch:
+  - platform: mqtt
+    name: "air-conditioner"
+    command_topic: "IR/cmd"
+    payload_on: "irsend,Fuji,e0e09966,32"
+    payload_off: "irsend,Fuji,e0e019e6,32"

@@ -1,8 +1,11 @@
 # air-conditioner
 
+Project for the 2019 TUES internship in Astea Solutions. The goal is to automate controll over an AC with Home Assistant, running on a Docker image, communicating with the device via Mosquitto broker. 
+
+# Commands
 STEP 1: Install docker
 
-use the comands bellow:
+Use the comands bellow:
 
 	
 	sudo apt update
@@ -25,7 +28,7 @@ use the comands bellow:
 
 STEP 2 (optional): Use docker without sudo
 	
-use the comands bellow:
+Use the comands bellow:
 
 	sudo usermod -aG docker {USER}
 
@@ -33,5 +36,8 @@ use the comands bellow:
 
 STEP 3: Run docker image with Home Assistant
 	
-	docker run --init -d --name="home-assistant" -v /PATH_TO_YOUR_CONFIG:/config -v --net=host homeassistant/home-assistant
+Use the command bellow:
 
+	docker run --init -d --name="home-assistant" -v /{PATH_TO_DIRECTORY}/air-conditioner/docker:/config -v --net=host homeassistant/home-assistant
+
+If you have already used the name "home-assistant" for docker container, you could set it to anything unused.

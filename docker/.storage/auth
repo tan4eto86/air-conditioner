@@ -1,6 +1,16 @@
 {
     "data": {
-        "credentials": [],
+        "credentials": [
+            {
+                "auth_provider_id": null,
+                "auth_provider_type": "homeassistant",
+                "data": {
+                    "username": "alabala"
+                },
+                "id": "2387c95123ae4218ba246910cb0146aa",
+                "user_id": "c36d2d94085a4bf2b38f28f316fbdf4a"
+            }
+        ],
         "groups": [
             {
                 "id": "system-admin",
@@ -15,7 +25,22 @@
                 "name": "Read Only"
             }
         ],
-        "refresh_tokens": [],
+        "refresh_tokens": [
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://localhost:8123/",
+                "client_name": null,
+                "created_at": "2019-07-04T12:22:39.012122+00:00",
+                "id": "0a7c5380167240ca85b6fdc2416b02c9",
+                "jwt_key": "8666527ca833e02501154b27dc719c51bac3b9c09274f736194a5749e4aaff8358fab44f16a95bfc8deccf8d6742657c389957408fd73754ab000b9f1527e97e",
+                "last_used_at": "2019-07-10T07:32:21.865194+00:00",
+                "last_used_ip": "172.17.0.1",
+                "token": "e922317b89d0fca21fadc05fd89f54bf91e829516f0a047ecef0a5b2762216b47b69c840716895c591c742a6cb071aa8c21b85f1d1e67d0b0946ecb98287e8ed",
+                "token_type": "normal",
+                "user_id": "c36d2d94085a4bf2b38f28f316fbdf4a"
+            }
+        ],
         "users": [
             {
                 "group_ids": [
@@ -26,6 +51,16 @@
                 "is_owner": false,
                 "name": "Home Assistant Cloud",
                 "system_generated": true
+            },
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "c36d2d94085a4bf2b38f28f316fbdf4a",
+                "is_active": true,
+                "is_owner": true,
+                "name": "alabala",
+                "system_generated": false
             }
         ]
     },

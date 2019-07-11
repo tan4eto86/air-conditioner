@@ -1,0 +1,26 @@
+{
+    "data": [
+        {
+            "last_seen": "2019-07-11T10:53:37.861256+00:00",
+            "state": {
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "alabala",
+                    "id": "2d72408992c54b28b683059ddf8031fa",
+                    "user_id": "c36d2d94085a4bf2b38f28f316fbdf4a"
+                },
+                "context": {
+                    "id": "785ec7d9cb004aa9ae4cc2ad800d20f4",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "person.alabala",
+                "last_changed": "2019-07-04T12:22:29.081475+00:00",
+                "last_updated": "2019-07-04T12:22:29.081475+00:00",
+                "state": "unknown"
+            }
+        }
+    ],
+    "key": "core.restore_state",
+    "version": 1
+}

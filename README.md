@@ -42,7 +42,7 @@ Use the command bellow:
 
 If you have already used the name "home-assistant" for docker container, you could set it to anything unused.
 
-# Sourcres
+# Sources
 
 ## Decoding the AC remote commands
 

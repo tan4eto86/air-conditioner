@@ -28,13 +28,11 @@ Open configuration.yaml in your docker folder directory
 
 Enter your mqtt(mosquitto) config:
 
-```	
-mqtt:
-  	broker: <your IP address>
-   	username: username
-	password: password
+	mqtt:
+		broker: <your IP address>
+		username: username
+		password: password
 	
-```
 
 ## STEP 4: Subscribe broker(mosquitto) to Hass.io
 
